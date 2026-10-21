@@ -1,0 +1,61 @@
+{
+  "version": "2026-01-25",
+  "categories": [
+    {
+      "category_id": 4,
+      "category_name": "Technical Integrations",
+      "category_text_id": "tech",
+      "active": true,
+      "definition": "Technical integration between two products or protocols is being sought or announced, with an explicit invitation for partners or integrators to engage"
+    },
+    {
+      "category_id": 5,
+      "category_name": "Grants/ RFP",
+      "category_text_id": "grant",
+      "active": true,
+      "definition": "An open grant program, request for proposal, bounty, or funding application with defined eligibility criteria and an external action surface"
+    },
+    {
+      "category_id": 6,
+      "category_name": "General/ Other",
+      "category_text_id": "gener",
+      "active": true,
+      "definition": "Actionable Business Development (BD) opportunities exist that don’t cleanly fit the other defined categories. This is like fallback."
+    },
+    {
+      "category_id": 7,
+      "category_name": "Vendor & Services",
+      "category_text_id": "proc",
+      "active": true,
+      "definition": "Target company procuring external vendors or professional services including legal, compliance, finance, development, or operational support"
+    },
+    {
+      "category_id": 8,
+      "category_name": "Commercial & Payments",
+      "category_text_id": "comm",
+      "active": true,
+      "definition": "Commercial adoption opportunity involving crypto payments, stablecoin rails, merchant integration, or financial product distribution"
+    },
+    {
+      "category_id": 9,
+      "category_name": "Regulatory & Compliance",
+      "category_text_id": "regul",
+      "active": true,
+      "definition": "Target company is navigating a regulatory process (e.g. licensing, MiCA, SEC registration) and requires compliance, legal, or advisory support"
+    },
+    {
+      "category_id": 10,
+      "category_name": "Partnerships & Distribution",
+      "category_text_id": "part",
+      "active": true,
+      "definition": "A go-to-market, ecosystem, or distribution partnership is being sought, including co-marketing, white labelling, and reseller arrangements"
+    },
+    {
+      "category_id": 11,
+      "category_name": "Token Lauch/ TGE",
+      "category_text_id": "tge",
+      "active": true,
+      "definition": "New token, protocol, or product launching imminently or just launched, creating an immediate surface for partners, integrators, or service providers to engage"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+DB_HOST,DB_PORT,DB_USER,DB_PASSWORD,DB_NAME,DB_SCHEMA
+srv1172911.hstgr.cloud,5432,devmain,devmain#db004@calyxonai,stagedb,public

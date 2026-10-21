@@ -1,0 +1,215 @@
+{
+  "version": "2026-02-22",
+  "filters": [
+    {
+      "id": 1,
+      "filter_type": "chain",
+      "name": "EVM",
+	  "filter_text_id": "chain-evm",
+      "enabled": true,
+      "definition": "Any Ethereum-compatible chain including Ethereum mainnet, Base, Arbitrum, Optimism, Scroll, Polygon, and any other EVM-compatible L1 or L2"
+    },
+    {
+      "id": 2,
+      "filter_type": "chain",
+      "name": "Solana",
+	  "filter_text_id": "chain-sol",
+      "enabled": true,
+      "definition": "Opportunity specifically related to Solana ecosystem"
+    },
+    {
+      "id": 3,
+      "filter_type": "chain",
+      "name": "BNB Chain",
+	  "filter_text_id": "chain-bnb",
+      "enabled": true,
+      "definition": "Opportunity targeting BNB Chain infrastructure, BNB dApps, or BNB ecosystem programs"
+    },
+    {
+      "id": 4,
+      "filter_type": "chain",
+      "name": "Cosmos",
+ 	  "filter_text_id": "chain-cosmos",
+	  "enabled": true,
+      "definition": "Opportunity within Cosmos ecosystem, IBC, appchains, IBC-connected chains, or Cosmos SDK-based projects"
+    },
+    {
+      "id": 5,
+      "filter_type": "chain",
+      "name": "Bitcoin",
+	  "filter_text_id": "chain-BTC",
+      "enabled": true,
+      "definition": "Opportunity related to Bitcoin, Lightning, Ordinals, or L1 or Bitcoin-native L2s"
+    },
+    {
+      "id": 6,
+      "filter_type": "chain",
+      "name": "Multi-chain",
+	  "filter_text_id": "chain-multi",
+      "enabled": true,
+      "definition": "Opportunity spanning multiple different ecosystems, e.g. bridges, omnichain protocols, Layerzero-type projects, or explicitly supporting cross-chain functionality."
+    },
+    {
+      "id": 7,
+      "filter_type": "chain",
+      "name": "Other",
+	  "filter_text_id": "chain-other",
+      "enabled": true,
+      "definition": "Any chain or ecosystem, e.g. Cardano, XRP, Aptos, Sui, Tezos, NEAR, Algorand, TON, Flow that are not covered in already defined chain filters"
+    },
+
+    {
+      "id": 8,
+      "filter_type": "sector",
+      "name": "DeFi",
+	  "filter_text_id": "sect-defi",	  
+      "enabled": true,
+      "definition": "Decentralised financial protocols including DEXs, lending platforms, yield protocols, stablecoins, liquidity provision, and derivatives"
+    },
+    {
+      "id": 9,
+      "filter_type": "sector",
+      "name": "Infrastructure",
+	  "filter_text_id": "sect-infra",	  
+      "enabled": true,
+      "definition": "Blockchain-native technical layers including node operators, RPC providers, bridges, indexers, oracles, dev tooling, block explorers, and validators"
+    },
+    {
+      "id": 10,
+      "filter_type": "sector",
+      "name": "Payments",
+	  "filter_text_id": "sect-pay",	  
+      "enabled": true,
+      "definition": "Crypto-native payment rails, stablecoin payment adoption, merchant crypto payments, and payroll/settlement solutions"
+    },
+    {
+      "id": 11,
+      "filter_type": "sector",
+      "name": "RWA / Tokenization",
+	  "filter_text_id": "sect-rwa",	  
+      "enabled": true,
+      "definition": "Tokenization of real-world assets including commodities, equities, real estate, funds, and structured financial products"
+    },
+    {
+      "id": 12,
+      "filter_type": "sector",
+      "name": "ZK / Privacy",
+	  "filter_text_id": "sect-zk",	  
+      "enabled": true,
+      "definition": "Opportunity related to zero-knowledge proofs, privacy-preserving infrastructure, or cryptographic systems"
+    },
+    {
+      "id": 13,
+      "filter_type": "sector",
+      "name": "AI",
+	  "filter_text_id": "sect-ai",	  
+      "enabled": true,
+      "definition": "Opportunity combining blockchain with artificial intelligence, AI agents, or data models. Only tag AI when AI is the core product, not when AI is mentioned incidentally"
+    },
+    {
+      "id": 14,
+      "filter_type": "sector",
+      "name": "Other",
+	  "filter_text_id": "sect-other",	  
+      "enabled": true,
+      "definition": "An opportunity that does not fit any already defined sector filters."
+    },
+
+    {
+      "id": 15,
+      "filter_type": "seeking",
+      "name": "Infrastructure / RPC / Nodes",
+	  "filter_text_id": "seek-infra",	  
+      "enabled": true,
+      "definition": "Target is seeking node operators, RPC providers, validators, or core blockchain infrastructure providers"
+    },
+    {
+      "id": 16,
+      "filter_type": "seeking",
+      "name": "Data / Oracle / Indexing",
+	  "filter_text_id": "seek-data",	
+      "enabled": true,
+      "definition": "Target is seeking data feeds, oracle services, on-chain indexing, or analytics infrastructure"
+    },
+    {
+      "id": 17,
+      "filter_type": "seeking",
+      "name": "Bridge / Cross-chain",
+	  "filter_text_id": "seek-bridge",	
+      "enabled": true,
+      "definition": "Target is seeking cross-chain interoperability solutions, bridge integrations, or omnichain messaging providers"
+    },
+    {
+      "id": 18,
+      "filter_type": "seeking",
+      "name": "DEX / Liquidity",
+	  "filter_text_id": "seek-dex",	
+      "enabled": true,
+      "definition": "Target is seeking DEX integrations, liquidity providers, AMM partnerships, or market depth solutions"
+    },
+    {
+      "id": 19,
+      "filter_type": "seeking",
+      "name": "Wallet",
+	  "filter_text_id": "seek-wallet",	
+      "enabled": true,
+      "definition": "Target is seeking wallet integrations, wallet SDK partnerships, or in-wallet feature providers"
+    },
+    {
+      "id": 20,
+      "filter_type": "seeking",
+      "name": "ZK / Privacy",
+	  "filter_text_id": "seek-zk",	
+      "enabled": true,
+      "definition": "Target is seeking zero-knowledge proof tooling, privacy layers, or confidential transaction solutions"
+    },
+    {
+      "id": 21,
+      "filter_type": "seeking",
+      "name": "AI",
+	  "filter_text_id": "seek-ai",	
+      "enabled": true,
+      "definition": "Target is seeking AI models, AI infrastructure providers, or machine learning data services"
+    },
+    {
+      "id": 22,
+      "filter_type": "seeking",
+      "name": "RWA / Tokenization",
+	  "filter_text_id": "seek-rwa",	
+      "enabled": true,
+      "definition": "Target is seeking tokenization platforms, asset issuance services, or RWA distribution partners"
+    },
+    {
+      "id": 23,
+      "filter_type": "seeking",
+      "name": "Security / Audit",
+	  "filter_text_id": "seek-secur",	
+      "enabled": true,
+      "definition": "Target is seeking smart contract auditors, security researchers, formal verification services, or compliance tooling"
+    },
+    {
+      "id": 24,
+      "filter_type": "seeking",
+      "name": "Market Maker",
+	  "filter_text_id": "seek-maker",	
+      "enabled": true,
+      "definition": "Target is seeking market making services, liquidity management, or algorithmic trading partners"
+    },
+    {
+      "id": 25,
+      "filter_type": "seeking",
+      "name": "Launchpad / Token Issuance",
+	  "filter_text_id": "seek-launch",	
+      "enabled": true,
+      "definition": "Target is seeking token launch support, IDO platforms, or token distribution services"
+    },
+    {
+      "id": 26,
+      "filter_type": "seeking",
+      "name": "Other",
+	  "filter_text_id": "seek-other",	
+      "enabled": true,
+      "definition": "Opportunity seeking a service or partner type but does not fit any already defined seeking filters."
+    }
+  ]
+}

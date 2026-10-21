@@ -1,0 +1,47 @@
+{
+  "version": "2026-01-25",
+  "categories": [
+    {
+      "category_id": 4,
+      "category_name": "Integrations & Technical Enablement",
+      "sector": "tech",
+      "active": true
+    },
+    {
+      "category_id": 5,
+      "category_name": "Grants, RFPs & Program Applications",
+      "sector": "grant",
+      "active": true
+    },
+    {
+      "category_id": 6,
+      "category_name": "General Business Opportunities",
+      "sector": "gener",
+      "active": true
+    },
+    {
+      "category_id": 7,
+      "category_name": "Vendor, Services & Procurement",
+      "sector": "proc",
+      "active": true
+    },
+    {
+      "category_id": 8,
+      "category_name": "Commercial Adoption & Payments Use Cases",
+      "sector": "comm",
+      "active": true
+    },
+    {
+      "category_id": 9,
+      "category_name": "Regulatory & Compliance",
+      "sector": "regul",
+      "active": true
+    },
+    {
+      "category_id": 10,
+      "category_name": "Ecosystem Partnerships & Distribution",
+      "sector": "part",
+      "active": true
+    }
+  ]
+}
